@@ -1,0 +1,28 @@
+dev:
+  svn:
+      frontend: 'C:\directory1\directory2\directory3...'
+      backend: 'C:\directory1\directory2\directory3...'
+  copy:
+      frontend: 'file/directory1/directory2'
+      backend: 'file/directory1/directory2'
+  file: <- 명령어 실행중 배포를 위해 복사할 파일
+      local: 'C:\directory1\directory2\directory3...\XXXX.jar'
+      remote: '/directory1/directory2/directory2/..../XXXX.jar'
+  ssh:
+      server: ['000.000.000.000']
+      username: 'id'
+      password: 'password'
+prod:
+  svn:
+      frontend: 'C:\directory1\directory2\directory3...'
+      backend: 'C:\directory1\directory2\directory3...'
+  copy:
+      frontend: 'file/directory1/directory2'
+      backend: 'file/directory1/directory2'
+  file:
+      local: 'C:\directory1\directory2\directory3...\XXXX.jar'
+      remote: '/directory1/directory2/directory2/..../XXXX.jar'
+  ssh:
+      server: ['000.000.000.000']
+      username: 'id'
+      password: 'password'
