@@ -1,3 +1,3 @@
 # AutoDeploy
 ----------------------------------------------------------------------------------------------------------
-I maked Python Program for Auto Deploy
+I made Python Program for Auto Deploy
